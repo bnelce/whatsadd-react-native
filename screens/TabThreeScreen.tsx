@@ -1,17 +1,15 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
+
+import EditScreenInfo from '../components/EditScreenInfo';
 import { Text, View } from '../components/Themed';
 
-export default function TabTwoScreen() {
+export default function TabThreeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Lista de Funções</Text>
+      <Text style={styles.title}>Tab de Perfil</Text>
+      <Text style={styles.title}>Inserir Avatar, Links e Redes Sociais</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <Text style={styles.title}>Dark Mode</Text>
-      <Text style={styles.title}>Clear All History</Text>
-      <Text style={styles.title}>Disable History</Text>
-      <Text style={styles.title}>Export History</Text>
-      <Text style={styles.title}>Language EN or PT_BR</Text>
     </View>
   );
 }
