@@ -23,21 +23,21 @@ export default function BottomTabNavigator() {
         name="Add"
         component={TabOneNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color}  />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-paper-plane" color={color}  />,
         }}
       />
-      <BottomTab.Screen
+      {/*<BottomTab.Screen
         name="Settings"
         component={TabTwoNavigator}
         options={{
           tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
         }}
-      />
+      />*/}
       <BottomTab.Screen
         name="About"
         component={TabThreeNavigator}
         options={{
-          tabBarIcon: ({ color }) => <TabBarIcon name="ios-code" color={color} />,
+          tabBarIcon: ({ color }) => <TabBarIcon name="ios-alert" color={color} />,
         }}
       />
     </BottomTab.Navigator>
